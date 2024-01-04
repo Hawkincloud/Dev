@@ -22,13 +22,7 @@
     <meta name="theme-color" content="#ffffff">
 
     
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-41TW11ZL57');
-    </script>
+   
     </head>
 <body>
 
@@ -52,11 +46,32 @@
             ">
     <a href="index.html" class="menu__link ">
         Home    </a>
-</li>            <li class="menu__item
-            ">
-    <a href="cases.html" class="menu__link ">
-        Install App    </a>
-</li>            <li class="menu__item
+</li>            
+
+
+<li class="menu__item">
+        <a href="#" class="menu__link" onclick="checkPassword()">For Developers</a>
+    </li>   
+
+    <script>
+    function checkPassword() {
+        // Prompt the user for a password
+        var password = prompt("Please enter the password:");
+
+        // Check if the entered password is correct
+        if (password === "2024") {
+            // Redirect to the protected page if the password is correct
+            window.location.href = "cases.html";
+        } else {
+            // Display an alert if the password is incorrect
+            alert("Incorrect password. Access denied.");
+        }
+    }
+</script>           
+
+
+
+<li class="menu__item
             ">
 
     <a href="contact.html" class="menu__link menu__link--active">
@@ -65,19 +80,13 @@
 
             <br>
             <div class="socials">
-                <a href="https://www.facebook.com/hawkinclouds" target="_blank" class="social">
-                    <i class="icon-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/hawkincloud/" target="_blank" class="social">
-                    <i class="icon-instagram"></i>
-                </a>
+               
                 <a href="https://www.linkedin.com/company/hawkincloud/" target="_blank" class="social">
                     <i class="icon-Linkedin"></i>
                 </a>
             
             
-                <a href="https://twitter.com/Hawkincloud?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-                    data-show-count="false">Follow @Hawkincloud</a>
+               
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
@@ -104,23 +113,17 @@
     <div class="container">
         <div class="contact__header">
             <h2 class="contact__title text-light">
-                HAWK <strong>in Cloud </strong>
+                Hawkincloud 
             </h2>
 
             <div class="socials">
-                <a href="https://www.facebook.com/hawkinclouds" target="_blank" class="social">
-                    <i class="icon-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/hawkincloud/" target="_blank" class="social">
-                    <i class="icon-instagram"></i>
-                </a>
+                
                 <a href="https://www.linkedin.com/company/hawkincloud/" target="_blank" class="social">
                     <i class="icon-Linkedin"></i>
                 </a>
             
             
-                <a href="https://twitter.com/Hawkincloud?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-                    data-show-count="false">Follow @Hawkincloud</a>
+               
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
@@ -150,16 +153,11 @@
                         <i class="icon-add"></i>
                     </div>
                     <div class="block-with-icon__content reading reading--light">
-                        <h4>Hawk in Cloud</h4>
+                        <h4>Hawkincloud</h4>
                         100 Morrissey Blvd, Boston, MA 02125 <br>
                         United States of America<br>
                         <br>
-                        <a href="mailto:aliyevdevops@gmail.com">o.aliyev001@umb.edu</a>
-                        <br>
-                        <a href="mailto:m.zaheer001@umb.edu">m.zaheer001@umb.edu</a>
-                        <br>
-                        <a href="mailto:michael.hernandez003@umb.edu">michael.hernandez003@umb.edu</a><br>
-                        <a href="mailto:nephthro.pierre001@umb.edu">nephthro.pierre001@umb.edu</a>
+                        <a href="mailto:info@hawkincloud.com">info@hawkincloud.com</a>
                     </div>
                 </div>
             </div>
@@ -172,7 +170,7 @@
     <div class="container">
         <div class="footer__content">
             <span class="footer__text">
-                &copy; <strong>Hawk in Cloud</strong> 2023            </span>
+                &copy; <strong>Hawk in Cloud</strong> 2024            </span>
                             
                     </div>
     </div>

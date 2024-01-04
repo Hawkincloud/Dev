@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
     <link type="text/css" href="src/front/css/application.308be9c5ff94c954907f.min.css" rel="stylesheet"/>
 
-    <meta property="og:title" content="Hawk in Cloud - Audit, Monitor, and Analyze your AWS Account activity."/>
-    <meta property="og:description" content="Hawk in Cloud - Audit, Monitor, and Analyze your AWS Account activity."/>
+    <meta property="og:title" content="HawkinCloud - Audit, Monitor, and Analyze your AWS Account activity."/>
+    <meta property="og:description" content="HawkinCloud - Audit, Monitor, and Analyze your AWS Account activity."/>
     <meta property="og:image" content="src/front/img/ux-design.jpg"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="src/front/img/favicon/apple-touch-icon.png">
@@ -44,11 +44,29 @@
     menu__item--active        ">
     <a href="index.html" class="menu__link menu__link--active">
         Home    </a>
-</li>            <li class="menu__item
-            ">
-    <a href="cases.html" class="menu__link ">
-        Install App     </a>
-</li>            <li class="menu__item
+</li>            
+
+<li class="menu__item">
+        <a href="#" class="menu__link" onclick="checkPassword()">For Developers</a>
+    </li>   
+
+    <script>
+    function checkPassword() {
+        // Prompt the user for a password
+        var password = prompt("Please enter the password:");
+
+        // Check if the entered password is correct
+        if (password === "2024") {
+            // Redirect to the protected page if the password is correct
+            window.location.href = "cases.html";
+        } else {
+            // Display an alert if the password is incorrect
+            alert("Incorrect password. Access denied.");
+        }
+    }
+</script>   
+
+ <li class="menu__item
             ">
    
     <a href="contact.html" class="menu__link ">
@@ -58,19 +76,13 @@
             
             <br>
             <div class="socials">
-                <a href="https://www.facebook.com/hawkinclouds" target="_blank" class="social">
-                    <i class="icon-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/hawkincloud/" target="_blank" class="social">
-                    <i class="icon-instagram"></i>
-                </a>
+                
                 <a href="https://www.linkedin.com/company/hawkincloud/" target="_blank" class="social">
                     <i class="icon-Linkedin"></i>
                 </a>
             
             
-                <a href="https://twitter.com/Hawkincloud?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-                    data-show-count="false">Follow @Hawkincloud</a>
+                
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
@@ -251,11 +263,10 @@
 
                 <h1 class="home-banner__visual-text"
                 >
-                    <div class="muted home-banner__visual-text-1">
-                        Hawkincloud                   </div>
+                    
                     <div class="home-banner__visual-text-2">
 
-                        IT 485 Capstone Project.                    </div>
+                        Audit monitoring & AI analysis.                    </div>
                 </h1>
             </div>
             <div class="home-banner__main-content"
@@ -265,18 +276,21 @@
                         <div class="col-md-9 offset-md-1">
                             <div class="home-banner__text">
 
-                                A capstone project at <a href="https://www.umb.edu/">UMass Boston</a>  using AWS CloudTrail could involve using the service to monitor and analyze the
-                                activity within a specified AWS account for security or compliance purposes. This could include deploying <a href="https://github.com/Hawkincloud">on GitHub</a>
-                                pull request and changes made to resources, setting up alerts for specific events, and creating visualizations of the data to
-                                identify trends or potential issues. Additionally, the project could also include implementing additional security
-                                measures such as multi-factor authentication or security group changes based on the findings from CloudTrail. Overall,
-                                the project aims to ensure the security and compliance of the                                 <a href="https://aws.amazon.com/">AWS</a> infrastructure and services.
+                                Hawkincloud revolutionizes infrastructure monitoring through its SaaS/PaaS-based solution, offering a comprehensive suite of metrics, visualizations, and alerting capabilities. This empowers engineering teams to efficiently uphold, optimize, and safeguard both cloud and hybrid environments. With broad support for popular technologies, a streamlined deployment process requiring minimal maintenance, a user-friendly interface, and profound security insights, Hawkincloud facilitates enhanced communication and troubleshooting for teams.
+
+
+
+
+
+
                                                        </div>
                             <div class="button-group home-banner__button-group"
                             >
-                                <a href="cases.html" class="link link--3 link--icon" data-stick-cursor>
+
+
+                                <a href="mailto:info@hawkincloud.com" class="link link--3 link--icon" data-stick-cursor>
                                     <span class="icon-eyecon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span>
-                                    Installation Guide                              </a>
+                                    Request Demo                              </a>
                             </div>
                         </div>
                     </div>
@@ -289,7 +303,13 @@
                             
                             <div class="home-banner__scroll-item">
                                 <br>
-                                <a href="#" class="home-banner__scoll__link">STAFF: </a> Aliyev Omar, Haider Zaheer, Michael Hernandez, Pierre Nephthro                       </div>
+                                <a href="#" class="home-banner__scoll__link"></a> Monitor a multitude of infrastructure measurements effortlessly. Access uninterrupted historical data, even for infrastructure that is no longer present. Enhance troubleshooting efficiency by instantly correlating related metrics, traces, logs, and security signals from various parts of the system with just one click.
+
+
+
+
+
+                   </div>
                             
                         </div>
                        </div>
@@ -307,85 +327,36 @@
     </div>
 
 </section>
-<section class="cases" data-to-light data-light-logo>
-    <div class="cases__list full-view" data-animate data-animate-treshold="100">
-        <div class="container">
-                            <a href="blank1.html" class="cases__item">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="cases__type">1st                                     <p style="font-size:7px"> Event</p>
 
-<p></p>
+<div class="title-block title-block--full" style=" --background: #D9FBFF;    --color: #00E3FF " data-animate="" data-animate-when-top-matches="true" data-animate-treshold="250">
+    <div class="title-block__sticky">
+        <div class="title-block__wrapper animated" data-animate="">
+            <h2 class="title-block__title">
+            <div class="title-block__sub-title-wrapper">
+                <br>
+                <h3 class="title-block__sub-title">
+                                  </h3>
 
-                            </div>
-                        </div>
-                        <div class="col-md-9 offset-md-1">
-                            <div class="cases__title" data-letter="1">Reports & Presentation</div> 
-                        </div>
-                    </div>
                     
-                </a>
-                            <a href="blank2.html" class="cases__item">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="cases__type">2nd                <p style="font-size:7px"> Event</p>
+                        
+                        <div class="bottomleft">
+                            <div class="bgimg">
+                               
+                                <div class="middle">
+                                    <br><br><br><br>
+                                    <p id="demo" style="font-size:40px">PARTNERS</p>
+                                    
+                                </div>
 
+                               
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-9 offset-md-1">
-                            <div class="cases__title" data-letter="2">Reports & Presentation</div>
+                            </div></h2>
                         </div>
                     </div>
-                   
-                </a>
-                            <a href="blank3.html" class="cases__item">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="cases__type">3rd <p style="font-size:7px"> Event</p></div>
-                        </div>
-                        <div class="col-md-9 offset-md-1">
-                            <div class="cases__title" data-letter="3">Reports & Presentation</div>
-                        </div>
-                    </div>
-                   
-                </a>
-
-                            <a href="blank4.html" class="cases__item">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="cases__type">4th <p style="font-size:7px"> Event</p></div>
-                        </div>
-                        <div class="col-md-9 offset-md-1">
-                            <div class="cases__title" data-letter="4">Reports & Presentation</div>
-                        </div>
-                    </div>
-                   
-                </a>
-
-                            <a href="blank5.html" class="cases__item">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="cases__type">5th <p style="font-size:7px"> Event</p></div>
-                        </div>
-                        <div class="col-md-9 offset-md-1">
-                            <div class="cases__title" data-letter="5">Reports & Presentation</div>
-                        </div>
-                    </div>
-                  
-                </a>
-                <a href="blank6.html" class="cases__item">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="cases__type">6th <p style="font-size:7px"> Event</p></div>
-                        </div>
-                        <div class="col-md-9 offset-md-1">
-                            <div class="cases__title" data-letter="6">Reports & Presentation</div>
-                        </div>
-                    </div>
-                  
-                </a>
-                    </div>
-    </div>
+            </div>
+<section class="cases" data-to-light data-light-logo>
+    
     <div class="logo-slider scroll-items scroll-items">
         <div class="scroll-items__inner scroll-items__inner--slow">
             <div class="scroll-items__item scroll-items__item--custom">
@@ -438,90 +409,27 @@
             </div>
         </div>
     </div>
-</section><div class="title-block title-block--full"
-     style=" --background: #D9FBFF;    --color: #00E3FF "
-     data-animate
-     data-animate-when-top-matches="true"
-     data-animate-treshold="250"
-    >
-    <div class="title-block__sticky">
-        <div class="title-block__wrapper" data-animate>
-            <h2 class="title-block__title">
-<center><span class="title-block__first-letter">Installation Guide</span></center>
-                <a href="cases.html"><h2>link</h2></a>
-            <div class="title-block__sub-title-wrapper">
-                <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                <h3 class="title-block__sub-title">
-                                  </h3>
-
-                    
-                        
-                        <div class="bottomleft">
-                            <div class="bgimg">
-                               
-                                <div class="middle">
-                                    <br><br><br><br>
-                                    <p id="demo" style="font-size:40px"></p>
-                                    
-                                </div>
-
-                               
-                                </div>
-                            </div>
-                            </h3>
-                        </div>
-                    </div>
-            </div>
+</section>
         </div>
     </div>
 
 </div>
 <center>
-<div class="stats">
-    <div class="stats__item">
-        <div class="stat">
-            <div class="stat__number">
-                IT485
-            </div>
-            <div class="stat__title">Capstone Project</div>
-        </div>
-    </div>
-    
-    <div class="stats__item">
-        <div class="stat">
-            <div class="stat__number">
-                Simon Tran, PhD
-            </div>
-            <div class="stat__title">Special Thanks</div>
-        </div>
-    </div>
-    <div class="stats__item">
-        
-    </div>
 
+   
 </div>
 
 <section class="contact">
     <div class="container">
         <div class="contact__header">
-            <h2 class="contact__title text-light">
-                Contact <strong>HAWK in Cloud </strong>
-            </h2>
+           
 
             <div class="socials">
-                <a href="https://www.facebook.com/hawkinclouds" target="_blank" class="social">
-                    <i class="icon-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/hawkincloud/" target="_blank" class="social">
-                    <i class="icon-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/company/hawkincloud/" target="_blank" class="social">
-                    <i class="icon-Linkedin"></i>
-                </a>
+               
+                
                 
 
-                <a href="https://twitter.com/Hawkincloud?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-                    data-show-count="false">Follow @Hawkincloud</a>
+                
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -534,38 +442,17 @@
 
     <div class="contact-slider scroll-items">
         <div class="scroll-items__inner">
-            <div class="scroll-items__item contact-slider__slider"><strong>Audit, Monitor, and Analyze your</strong>  AWS Account activity.</div>
-            <div class="scroll-items__item contact-slider__slider"><strong>Audit, Monitor, and Analyze your</strong>  AWS Account activity.</div>
-            <div class="scroll-items__item contact-slider__slider"><strong>Audit, Monitor, and Analyze your</strong>  AWS Account activity.</div>
-            <div class="scroll-items__item contact-slider__slider"><strong>Audit, Monitor, and Analyze your</strong>  AWS Account activity.</div>
+            <div class="scroll-items__item contact-slider__slider"><strong>Audit, Monitor, and Analyze your</strong>  Cloud activity.</div>
+            <div class="scroll-items__item contact-slider__slider"><strong>Audit, Monitor, and Analyze your</strong>  Cloud activity.</div>
+            <div class="scroll-items__item contact-slider__slider"><strong>Audit, Monitor, and Analyze your</strong>  Cloud activity.</div>
+            <div class="scroll-items__item contact-slider__slider"><strong>Audit, Monitor, and Analyze your</strong>  Cloud activity.</div>
         </div>
 
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-               
-            <div class="col-md-5 col-lg-4 offset-lg-1">
-                <div class="contact__right block-with-icon">
-                    <div class="block-with-icon__icon">
-                        <i class="icon-add"></i>
-                    </div>
-                    
-                    <div class="block-with-icon__content reading reading--light">
-                        <h4>Hawk in Cloud</h4>
-                        100 Morrissey Blvd, Boston, MA 02125 <br>
-                        United States of America<br>
-                        <br>
-                        <a href="mailto:aliyevdevops@gmail.com">o.aliyev001@umb.edu</a>
-                        <a href="mailto:m.zaheer001@umb.edu">m.zaheer001@umb.edu</a>
-                        <a href="mailto:michael.hernandez003@umb.edu">michael.hernandez003@umb.edu</a>
-                         <a href="mailto:nephthro.pierre001@umb.edu">nephthro.pierre001@umb.edu</a>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
+            
     </div>
 </section>
 
@@ -613,9 +500,12 @@
     <div class="container">
         <div class="footer__content">
             <span class="footer__text">
-                &copy; <strong>HAWk in Cloud</strong> 2023            </span>
+                &copy; <strong>HAWkinCloud</strong> 2024            </span>
                         
                     </div>
+                    <a href="https://www.linkedin.com/company/hawkincloud/" target="_blank" class="social">
+                    <i class="icon-Linkedin"></i>
+                </a>
     </div>
 </footer></div>
 
